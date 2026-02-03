@@ -1,0 +1,150 @@
+{
+  "wards": [
+    {
+      "id": "ml52uqr4ot19hu",
+      "name": "ward-7",
+      "lat": 28.619,
+      "lng": 77.0311
+    },
+    {
+      "id": "ml53qu227xrnnc",
+      "name": "ward-1",
+      "lat": 28.7041,
+      "lng": 77.1025
+    },
+    {
+      "id": "ml61acgocedveq",
+      "name": "4",
+      "lat": 0,
+      "lng": 0
+    },
+    {
+      "id": "ml61c8713lnlfd",
+      "name": "32",
+      "lat": 0,
+      "lng": 0
+    }
+  ],
+  "signals": {
+    "ml52uqr4ot19hu": {
+      "signals": {
+        "clinicVisits": 5,
+        "pharmacySales": 1,
+        "pollution": 110,
+        "temperature": 12,
+        "mobility": 22,
+        "updatedAt": "2026-02-02T11:42:32.483Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "No significant anomalies detected",
+        "confidence": 20
+      }
+    },
+    "ml53qu227xrnnc": {
+      "signals": {
+        "clinicVisits": 100,
+        "pharmacySales": 10000,
+        "pollution": 200,
+        "temperature": 12,
+        "mobility": 100,
+        "updatedAt": "2026-02-02T11:44:59.557Z"
+      },
+      "alert": {
+        "level": "high",
+        "reason": "Respiratory spike due to PM2.5 + cold inversion",
+        "confidence": 85
+      }
+    },
+    "ml61acgocedveq": {
+      "signals": {
+        "clinicVisits": 100,
+        "pharmacySales": 121,
+        "pollution": 50,
+        "temperature": 24,
+        "mobility": 0,
+        "updatedAt": "2026-02-03T03:23:35.793Z"
+      },
+      "alert": {
+        "level": "high",
+        "reason": "covid is spreading fast in this area. Please be careful.",
+        "confidence": 88,
+        "disease": "covid"
+      },
+      "diseaseData": {
+        "covid": {
+          "clinicVisits": 1212,
+          "pharmacySales": 3434,
+          "updatedAt": "2026-02-03T03:25:13.997Z"
+        }
+      }
+    }
+  },
+  "users": [
+    {
+      "id": "ml5chrinpyzu2s",
+      "role": "citizen",
+      "name": "Pallavi",
+      "createdAt": "2026-02-02T15:49:14.255Z",
+      "lastLogin": "2026-02-02T15:49:14.255Z"
+    },
+    {
+      "id": "ml5ci6aixoz8tw",
+      "role": "citizen",
+      "name": "pallavi",
+      "createdAt": "2026-02-02T15:49:33.402Z",
+      "lastLogin": "2026-02-02T15:49:33.402Z"
+    },
+    {
+      "id": "ml5e0uml21lf0f",
+      "role": "pharmacist",
+      "name": "ABC",
+      "createdAt": "2026-02-02T16:32:04.365Z",
+      "lastLogin": "2026-02-02T16:32:04.365Z"
+    },
+    {
+      "id": "ml5fv138r2be93",
+      "role": "hospital",
+      "name": "abc",
+      "createdAt": "2026-02-02T17:23:32.036Z",
+      "lastLogin": "2026-02-02T17:23:32.036Z"
+    },
+    {
+      "id": "ml60z85m2itzvi",
+      "role": "citizen",
+      "name": "Dhanush",
+      "createdAt": "2026-02-03T03:14:39.754Z",
+      "lastLogin": "2026-02-03T03:14:39.754Z"
+    },
+    {
+      "id": "ml60zgjeozslln",
+      "role": "pharmacist",
+      "name": "Geetha",
+      "createdAt": "2026-02-03T03:14:50.618Z",
+      "lastLogin": "2026-02-03T03:14:50.618Z"
+    },
+    {
+      "id": "ml60zvbqenmerb",
+      "role": "hospital",
+      "name": "Posta",
+      "createdAt": "2026-02-03T03:15:09.782Z",
+      "lastLogin": "2026-02-03T03:15:09.782Z"
+    },
+    {
+      "id": "ml619qul4mto13",
+      "role": "pharmacist",
+      "name": "fgh",
+      "createdAt": "2026-02-03T03:22:50.541Z",
+      "lastLogin": "2026-02-03T03:22:50.541Z"
+    }
+  ],
+  "diseaseData": {
+    "ml61acgocedveq": {
+      "covid": {
+        "clinicVisits": 1212,
+        "pharmacySales": 3434,
+        "updatedAt": "2026-02-03T03:25:13.997Z"
+      }
+    }
+  }
+}
