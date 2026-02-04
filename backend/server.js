@@ -2,7 +2,10 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const cors = require('cors');
-require('dotenv').config();
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+}
+
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
