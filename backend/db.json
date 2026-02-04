@@ -1538,13 +1538,13 @@
     },
     "ml5ci6aixoz8tw": {
       "location": {
-        "lat": 12.824997544169937,
-        "lng": 80.04551112008276
+        "lat": 12.821629246612021,
+        "lng": 80.04591128131851
       },
-      "pollution": 20,
-      "temperature": 30,
+      "pollution": 0,
+      "temperature": 23,
       "diseases": [],
-      "updatedAt": "2026-02-04T07:45:25.839Z"
+      "updatedAt": "2026-02-04T15:08:42.749Z"
     }
   },
   "simulationHistory": [
