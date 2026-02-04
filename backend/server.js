@@ -13,8 +13,9 @@ const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-
-app.use(cors());
+app.use(cors({
+  origin: "*"
+}));
 app.use(express.json());
 
 async function getAIPrediction(wardName, signals, diseaseData) {
