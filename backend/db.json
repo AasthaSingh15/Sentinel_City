@@ -1,0 +1,1600 @@
+{
+  "wards": [
+    {
+      "id": "ml52uqr4ot19hu",
+      "name": "ward-7",
+      "lat": 28.619,
+      "lng": 77.0311
+    },
+    {
+      "id": "ml53qu227xrnnc",
+      "name": "ward-1",
+      "lat": 28.7041,
+      "lng": 77.1025
+    },
+    {
+      "id": "ml6k1ito75hxwv",
+      "name": "Naman Misra - 2/3/2026, 5:38:19 PM",
+      "lat": 50,
+      "lng": 20
+    },
+    {
+      "id": "ml6kmnqq3gzw6a",
+      "name": "Naman Misra - 2/3/2026, 5:54:45 PM",
+      "lat": 13.0895,
+      "lng": 80.2739
+    },
+    {
+      "id": "ml6kr9lv55m3j1",
+      "name": "Naman Misra - 2/3/2026, 5:58:20 PM",
+      "lat": 13.0895,
+      "lng": 80.2739
+    },
+    {
+      "id": "ml6kuexrmfhyo6",
+      "name": "Naman Misra - 2/3/2026, 6:00:47 PM",
+      "lat": 23,
+      "lng": 30
+    },
+    {
+      "id": "ml6l4qbn11imsh",
+      "name": "Doctor Sinha - 2/3/2026, 6:08:48 PM",
+      "lat": 22.57,
+      "lng": 88.36
+    },
+    {
+      "id": "ml6l60xr67m41e",
+      "name": "Doctor Sinha - 2/3/2026, 6:09:49 PM",
+      "lat": 13.0895,
+      "lng": 80.2739
+    },
+    {
+      "id": "ml6l7dao7il65e",
+      "name": "Doctor Sinha - 2/3/2026, 6:10:51 PM",
+      "lat": 26.9124,
+      "lng": 75.7873
+    },
+    {
+      "id": "ml6l8f94mmlnvd",
+      "name": "Doctor Sinha - 2/3/2026, 6:11:41 PM",
+      "lat": 21.1938,
+      "lng": 81.3509
+    },
+    {
+      "id": "ml8a1delpharm",
+      "name": "GreenCare Pharmacy - Delhi",
+      "lat": 28.6139,
+      "lng": 77.209
+    },
+    {
+      "id": "ml8a2mumpharm",
+      "name": "Seaside Pharmacy - Mumbai",
+      "lat": 19.076,
+      "lng": 72.8777
+    },
+    {
+      "id": "ml8a3bengpharm",
+      "name": "Silicon Pharmacy - Bengaluru",
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    {
+      "id": "ml8a4chnpharm",
+      "name": "BayMed Pharmacy - Chennai",
+      "lat": 13.0827,
+      "lng": 80.2707
+    },
+    {
+      "id": "ml8a5kolpharm",
+      "name": "Hooghly Pharmacy - Kolkata",
+      "lat": 22.5726,
+      "lng": 88.3639
+    },
+    {
+      "id": "ml8a6hydrpharm",
+      "name": "Charminar Pharmacy - Hyderabad",
+      "lat": 17.385,
+      "lng": 78.4867
+    },
+    {
+      "id": "ml8a7punepharm",
+      "name": "PuneCare Pharmacy - Pune",
+      "lat": 18.5204,
+      "lng": 73.8567
+    },
+    {
+      "id": "ml8a8ahmpharm",
+      "name": "Sabarmati Pharmacy - Ahmedabad",
+      "lat": 23.0225,
+      "lng": 72.5714
+    },
+    {
+      "id": "ml8a9luckpharm",
+      "name": "Gomti Pharmacy - Lucknow",
+      "lat": 26.8467,
+      "lng": 80.9462
+    },
+    {
+      "id": "ml8a10jaipharm",
+      "name": "PinkCity Pharmacy - Jaipur",
+      "lat": 26.9124,
+      "lng": 75.7873
+    },
+    {
+      "id": "ml8b1delhosp",
+      "name": "Central Hospital Delhi",
+      "lat": 28.6358,
+      "lng": 77.2245
+    },
+    {
+      "id": "ml8b2mumbhosp",
+      "name": "Mumbai General Hospital",
+      "lat": 19.075984,
+      "lng": 72.877656
+    },
+    {
+      "id": "ml8b3benghosp",
+      "name": "Bengaluru Care Hospital",
+      "lat": 12.971891,
+      "lng": 77.641154
+    },
+    {
+      "id": "ml8b4chnhosp",
+      "name": "Chennai Medical Center",
+      "lat": 13.067439,
+      "lng": 80.237617
+    },
+    {
+      "id": "ml8b5kolhosp",
+      "name": "Kolkata Health Institute",
+      "lat": 22.572645,
+      "lng": 88.363895
+    },
+    {
+      "id": "ml8b6hydrhosp",
+      "name": "Hyderabad City Hospital",
+      "lat": 17.385044,
+      "lng": 78.486671
+    },
+    {
+      "id": "ml8b7punehosp",
+      "name": "Pune City Hospital",
+      "lat": 18.52043,
+      "lng": 73.856743
+    },
+    {
+      "id": "ml8b8ahmhosp",
+      "name": "Ahmedabad General Hospital",
+      "lat": 23.022505,
+      "lng": 72.571362
+    },
+    {
+      "id": "ml8b9luckhosp",
+      "name": "Lucknow Civic Hospital",
+      "lat": 26.846695,
+      "lng": 80.946166
+    },
+    {
+      "id": "ml8b10jaiphosp",
+      "name": "Jaipur District Hospital",
+      "lat": 26.912434,
+      "lng": 75.78727
+    },
+    {
+      "id": "ml7psg0nod2gem",
+      "name": "pharma-grease - 2/4/2026, 1:06:59 PM",
+      "lat": 12.824920776401623,
+      "lng": 80.04546887854369
+    },
+    {
+      "id": "ml7chn001",
+      "name": "Chennai - T Nagar",
+      "lat": 13.0418,
+      "lng": 80.2341
+    },
+    {
+      "id": "ml7chn002",
+      "name": "Chennai - Adyar",
+      "lat": 13.0067,
+      "lng": 80.257
+    },
+    {
+      "id": "ml7chn003",
+      "name": "Chennai - Velachery",
+      "lat": 12.9791,
+      "lng": 80.2214
+    },
+    {
+      "id": "ml7chn004",
+      "name": "Chennai - Anna Nagar",
+      "lat": 13.085,
+      "lng": 80.2101
+    },
+    {
+      "id": "ml7chn005",
+      "name": "Chennai - Tambaram",
+      "lat": 12.9249,
+      "lng": 80.1
+    },
+    {
+      "id": "ml7chn006",
+      "name": "Chennai - Guindy",
+      "lat": 13.0108,
+      "lng": 80.212
+    }
+  ],
+  "signals": {
+    "ml52uqr4ot19hu": {
+      "signals": {
+        "clinicVisits": 5,
+        "pharmacySales": 1,
+        "pollution": 110,
+        "temperature": 12,
+        "mobility": 22,
+        "updatedAt": "2026-02-02T11:42:32.483Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "No significant anomalies detected",
+        "confidence": 20
+      }
+    },
+    "ml53qu227xrnnc": {
+      "signals": {
+        "clinicVisits": 100,
+        "pharmacySales": 10000,
+        "pollution": 200,
+        "temperature": 12,
+        "mobility": 100,
+        "updatedAt": "2026-02-02T11:44:59.557Z"
+      },
+      "alert": {
+        "level": "high",
+        "reason": "dengue is spreading fast in this area. Please be careful.",
+        "confidence": 88,
+        "disease": "dengue"
+      },
+      "diseaseData": {
+        "dengue": {
+          "clinicVisits": 1000000000,
+          "pharmacySales": 10000,
+          "updatedAt": "2026-02-03T10:51:18.796Z"
+        }
+      }
+    },
+    "ml6k1ito75hxwv": {
+      "signals": {
+        "clinicVisits": 0,
+        "pharmacySales": 0,
+        "pollution": 0,
+        "temperature": 0,
+        "mobility": 0,
+        "updatedAt": "2026-02-03T12:08:19.605Z"
+      },
+      "alert": {
+        "level": "high",
+        "reason": "covid 19 is spreading fast in this area. Please be careful.",
+        "confidence": 88,
+        "disease": "covid 19"
+      },
+      "diseaseData": {
+        "covid 19": {
+          "clinicVisits": 200,
+          "pharmacySales": 40,
+          "updatedAt": "2026-02-03T12:08:19.613Z"
+        }
+      }
+    },
+    "ml6kmnqq3gzw6a": {
+      "signals": {
+        "clinicVisits": 0,
+        "pharmacySales": 0,
+        "pollution": 50,
+        "temperature": 26,
+        "mobility": 0,
+        "updatedAt": "2026-02-03T12:24:45.752Z"
+      },
+      "alert": {
+        "level": "high",
+        "reason": "nipah virus is spreading fast in this area. Please be careful.",
+        "confidence": 88,
+        "disease": "nipah virus"
+      },
+      "diseaseData": {
+        "nipah virus": {
+          "clinicVisits": 230,
+          "pharmacySales": 500,
+          "updatedAt": "2026-02-03T12:24:45.759Z"
+        }
+      }
+    },
+    "ml6kr9lv55m3j1": {
+      "signals": {
+        "clinicVisits": 0,
+        "pharmacySales": 0,
+        "pollution": 50,
+        "temperature": 26,
+        "mobility": 0,
+        "updatedAt": "2026-02-03T12:28:20.713Z"
+      },
+      "alert": {
+        "level": "high",
+        "reason": "dengue is spreading fast in this area. Please be careful.",
+        "confidence": 88,
+        "disease": "dengue"
+      },
+      "diseaseData": {
+        "dengue": {
+          "clinicVisits": 500,
+          "pharmacySales": 3257,
+          "updatedAt": "2026-02-03T12:28:20.718Z"
+        }
+      }
+    },
+    "ml6kuexrmfhyo6": {
+      "signals": {
+        "clinicVisits": 0,
+        "pharmacySales": 0,
+        "pollution": 0,
+        "temperature": 0,
+        "mobility": 0,
+        "updatedAt": "2026-02-03T12:30:47.588Z"
+      },
+      "alert": {
+        "level": "high",
+        "reason": "dengue is spreading fast in this area. Please be careful.",
+        "confidence": 88,
+        "disease": "dengue"
+      },
+      "diseaseData": {
+        "dengue": {
+          "clinicVisits": 400,
+          "pharmacySales": 231,
+          "updatedAt": "2026-02-03T12:30:47.594Z"
+        }
+      }
+    },
+    "ml6l4qbn11imsh": {
+      "signals": {
+        "clinicVisits": 0,
+        "pharmacySales": 0,
+        "pollution": 0,
+        "temperature": 0,
+        "mobility": 0,
+        "updatedAt": "2026-02-03T12:38:48.905Z"
+      },
+      "alert": {
+        "level": "high",
+        "reason": "malaria is spreading fast in this area. Please be careful.",
+        "confidence": 88,
+        "disease": "malaria"
+      },
+      "diseaseData": {
+        "malaria": {
+          "clinicVisits": 5,
+          "pharmacySales": 100,
+          "updatedAt": "2026-02-03T12:38:48.912Z"
+        }
+      }
+    },
+    "ml6l60xr67m41e": {
+      "signals": {
+        "clinicVisits": 0,
+        "pharmacySales": 0,
+        "pollution": 50,
+        "temperature": 25,
+        "mobility": 0,
+        "updatedAt": "2026-02-03T12:39:49.319Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "No significant anomalies detected",
+        "confidence": 20
+      },
+      "diseaseData": {
+        "covid 19": {
+          "clinicVisits": 2,
+          "pharmacySales": 12,
+          "updatedAt": "2026-02-03T12:39:49.326Z"
+        }
+      }
+    },
+    "ml6l7dao7il65e": {
+      "signals": {
+        "clinicVisits": 0,
+        "pharmacySales": 0,
+        "pollution": 0,
+        "temperature": 0,
+        "mobility": 0,
+        "updatedAt": "2026-02-03T12:40:51.991Z"
+      },
+      "alert": {
+        "level": "high",
+        "reason": "dengue is spreading fast in this area. Please be careful.",
+        "confidence": 88,
+        "disease": "dengue"
+      },
+      "diseaseData": {
+        "dengue": {
+          "clinicVisits": 2,
+          "pharmacySales": 111,
+          "updatedAt": "2026-02-03T12:40:51.997Z"
+        }
+      }
+    },
+    "ml6l8f94mmlnvd": {
+      "signals": {
+        "clinicVisits": 0,
+        "pharmacySales": 0,
+        "pollution": 0,
+        "temperature": 0,
+        "mobility": 0,
+        "updatedAt": "2026-02-03T12:41:41.183Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "No significant anomalies detected",
+        "confidence": 20
+      },
+      "diseaseData": {
+        "dengue": {
+          "clinicVisits": 1,
+          "pharmacySales": 5,
+          "updatedAt": "2026-02-03T12:41:41.188Z"
+        }
+      }
+    },
+    "ml8a1delpharm": {
+      "signals": {
+        "clinicVisits": 4,
+        "pharmacySales": 120,
+        "pollution": 130,
+        "temperature": 24,
+        "mobility": 40,
+        "updatedAt": "2026-02-04T07:30:00.000Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "No significant anomalies detected",
+        "confidence": 30
+      },
+      "diseaseData": {
+        "flu": {
+          "clinicVisits": 2,
+          "pharmacySales": 30,
+          "updatedAt": "2026-02-04T07:30:00.000Z"
+        }
+      }
+    },
+    "ml8a2mumpharm": {
+      "signals": {
+        "clinicVisits": 6,
+        "pharmacySales": 240,
+        "pollution": 170,
+        "temperature": 29,
+        "mobility": 60,
+        "updatedAt": "2026-02-04T07:31:00.000Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "No significant anomalies detected",
+        "confidence": 28
+      },
+      "diseaseData": {
+        "fever": {
+          "clinicVisits": 5,
+          "pharmacySales": 80,
+          "updatedAt": "2026-02-04T07:31:00.000Z"
+        }
+      }
+    },
+    "ml8a3bengpharm": {
+      "signals": {
+        "clinicVisits": 3,
+        "pharmacySales": 95,
+        "pollution": 110,
+        "temperature": 26,
+        "mobility": 35,
+        "updatedAt": "2026-02-04T07:31:30.000Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "OK",
+        "confidence": 22
+      },
+      "diseaseData": {
+        "cold": {
+          "clinicVisits": 1,
+          "pharmacySales": 20,
+          "updatedAt": "2026-02-04T07:31:30.000Z"
+        }
+      }
+    },
+    "ml8a4chnpharm": {
+      "signals": {
+        "clinicVisits": 5,
+        "pharmacySales": 150,
+        "pollution": 140,
+        "temperature": 30,
+        "mobility": 50,
+        "updatedAt": "2026-02-04T07:32:00.000Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "OK",
+        "confidence": 25
+      },
+      "diseaseData": {
+        "dengue": {
+          "clinicVisits": 3,
+          "pharmacySales": 40,
+          "updatedAt": "2026-02-04T07:32:00.000Z"
+        }
+      }
+    },
+    "ml8a5kolpharm": {
+      "signals": {
+        "clinicVisits": 7,
+        "pharmacySales": 180,
+        "pollution": 160,
+        "temperature": 28,
+        "mobility": 55,
+        "updatedAt": "2026-02-04T07:32:30.000Z"
+      },
+      "alert": {
+        "level": "high",
+        "reason": "Increased fever reports",
+        "confidence": 68,
+        "disease": "fever"
+      },
+      "diseaseData": {
+        "fever": {
+          "clinicVisits": 60,
+          "pharmacySales": 300,
+          "updatedAt": "2026-02-04T07:32:30.000Z"
+        }
+      }
+    },
+    "ml8a6hydrpharm": {
+      "signals": {
+        "clinicVisits": 2,
+        "pharmacySales": 80,
+        "pollution": 90,
+        "temperature": 31,
+        "mobility": 30,
+        "updatedAt": "2026-02-04T07:33:00.000Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "OK",
+        "confidence": 22
+      },
+      "diseaseData": {
+        "covid 19": {
+          "clinicVisits": 5,
+          "pharmacySales": 20,
+          "updatedAt": "2026-02-04T07:33:00.000Z"
+        }
+      }
+    },
+    "ml8a7punepharm": {
+      "signals": {
+        "clinicVisits": 3,
+        "pharmacySales": 75,
+        "pollution": 95,
+        "temperature": 27,
+        "mobility": 38,
+        "updatedAt": "2026-02-04T07:33:30.000Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "OK",
+        "confidence": 20
+      },
+      "diseaseData": {
+        "cold": {
+          "clinicVisits": 2,
+          "pharmacySales": 15,
+          "updatedAt": "2026-02-04T07:33:30.000Z"
+        }
+      }
+    },
+    "ml8a8ahmpharm": {
+      "signals": {
+        "clinicVisits": 4,
+        "pharmacySales": 110,
+        "pollution": 120,
+        "temperature": 29,
+        "mobility": 42,
+        "updatedAt": "2026-02-04T07:34:00.000Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "OK",
+        "confidence": 24
+      },
+      "diseaseData": {
+        "malaria": {
+          "clinicVisits": 6,
+          "pharmacySales": 40,
+          "updatedAt": "2026-02-04T07:34:00.000Z"
+        }
+      }
+    },
+    "ml8a9luckpharm": {
+      "signals": {
+        "clinicVisits": 2,
+        "pharmacySales": 65,
+        "pollution": 100,
+        "temperature": 28,
+        "mobility": 30,
+        "updatedAt": "2026-02-04T07:34:30.000Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "OK",
+        "confidence": 21
+      },
+      "diseaseData": {
+        "fever": {
+          "clinicVisits": 4,
+          "pharmacySales": 22,
+          "updatedAt": "2026-02-04T07:34:30.000Z"
+        }
+      }
+    },
+    "ml8a10jaipharm": {
+      "signals": {
+        "clinicVisits": 3,
+        "pharmacySales": 90,
+        "pollution": 115,
+        "temperature": 32,
+        "mobility": 36,
+        "updatedAt": "2026-02-04T07:35:00.000Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "OK",
+        "confidence": 23
+      },
+      "diseaseData": {
+        "dengue": {
+          "clinicVisits": 8,
+          "pharmacySales": 120,
+          "updatedAt": "2026-02-04T07:35:00.000Z"
+        }
+      }
+    },
+    "ml8b1delhosp": {
+      "signals": {
+        "clinicVisits": 220,
+        "pharmacySales": 400,
+        "pollution": 140,
+        "temperature": 25,
+        "mobility": 80,
+        "updatedAt": "2026-02-04T07:35:30.000Z"
+      },
+      "alert": {
+        "level": "high",
+        "reason": "Cluster of respiratory cases",
+        "confidence": 85,
+        "disease": "flu"
+      },
+      "diseaseData": {
+        "flu": {
+          "clinicVisits": 180,
+          "pharmacySales": 320,
+          "updatedAt": "2026-02-04T07:35:30.000Z"
+        }
+      }
+    },
+    "ml8b2mumbhosp": {
+      "signals": {
+        "clinicVisits": 180,
+        "pharmacySales": 350,
+        "pollution": 180,
+        "temperature": 29,
+        "mobility": 75,
+        "updatedAt": "2026-02-04T07:36:00.000Z"
+      },
+      "alert": {
+        "level": "high",
+        "reason": "Rising dengue cases",
+        "confidence": 78,
+        "disease": "dengue"
+      },
+      "diseaseData": {
+        "dengue": {
+          "clinicVisits": 250,
+          "pharmacySales": 1400,
+          "updatedAt": "2026-02-04T07:36:00.000Z"
+        }
+      }
+    },
+    "ml8b3benghosp": {
+      "signals": {
+        "clinicVisits": 140,
+        "pharmacySales": 220,
+        "pollution": 100,
+        "temperature": 26,
+        "mobility": 60,
+        "updatedAt": "2026-02-04T07:36:30.000Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "Steady operations",
+        "confidence": 30
+      },
+      "diseaseData": {
+        "covid 19": {
+          "clinicVisits": 25,
+          "pharmacySales": 60,
+          "updatedAt": "2026-02-04T07:36:30.000Z"
+        }
+      }
+    },
+    "ml8b4chnhosp": {
+      "signals": {
+        "clinicVisits": 95,
+        "pharmacySales": 160,
+        "pollution": 135,
+        "temperature": 31,
+        "mobility": 50,
+        "updatedAt": "2026-02-04T07:37:00.000Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "No anomalies",
+        "confidence": 20
+      },
+      "diseaseData": {
+        "malaria": {
+          "clinicVisits": 12,
+          "pharmacySales": 40,
+          "updatedAt": "2026-02-04T07:37:00.000Z"
+        }
+      }
+    },
+    "ml8b5kolhosp": {
+      "signals": {
+        "clinicVisits": 160,
+        "pharmacySales": 300,
+        "pollution": 155,
+        "temperature": 28,
+        "mobility": 65,
+        "updatedAt": "2026-02-04T07:37:30.000Z"
+      },
+      "alert": {
+        "level": "high",
+        "reason": "Gastroenteritis spike",
+        "confidence": 70,
+        "disease": "gastroenteritis"
+      },
+      "diseaseData": {
+        "gastroenteritis": {
+          "clinicVisits": 140,
+          "pharmacySales": 220,
+          "updatedAt": "2026-02-04T07:37:30.000Z"
+        }
+      }
+    },
+    "ml8b6hydrhosp": {
+      "signals": {
+        "clinicVisits": 130,
+        "pharmacySales": 210,
+        "pollution": 95,
+        "temperature": 32,
+        "mobility": 58,
+        "updatedAt": "2026-02-04T07:38:00.000Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "Operational",
+        "confidence": 25
+      },
+      "diseaseData": {
+        "covid 19": {
+          "clinicVisits": 30,
+          "pharmacySales": 80,
+          "updatedAt": "2026-02-04T07:38:00.000Z"
+        }
+      }
+    },
+    "ml8b7punehosp": {
+      "signals": {
+        "clinicVisits": 100,
+        "pharmacySales": 150,
+        "pollution": 105,
+        "temperature": 27,
+        "mobility": 45,
+        "updatedAt": "2026-02-04T07:38:30.000Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "Stable",
+        "confidence": 22
+      },
+      "diseaseData": {
+        "fever": {
+          "clinicVisits": 20,
+          "pharmacySales": 50,
+          "updatedAt": "2026-02-04T07:38:30.000Z"
+        }
+      }
+    },
+    "ml8b8ahmhosp": {
+      "signals": {
+        "clinicVisits": 85,
+        "pharmacySales": 120,
+        "pollution": 125,
+        "temperature": 29,
+        "mobility": 40,
+        "updatedAt": "2026-02-04T07:39:00.000Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "OK",
+        "confidence": 21
+      },
+      "diseaseData": {
+        "malaria": {
+          "clinicVisits": 18,
+          "pharmacySales": 70,
+          "updatedAt": "2026-02-04T07:39:00.000Z"
+        }
+      }
+    },
+    "ml8b9luckhosp": {
+      "signals": {
+        "clinicVisits": 60,
+        "pharmacySales": 90,
+        "pollution": 110,
+        "temperature": 30,
+        "mobility": 35,
+        "updatedAt": "2026-02-04T07:39:30.000Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "OK",
+        "confidence": 20
+      },
+      "diseaseData": {
+        "fever": {
+          "clinicVisits": 12,
+          "pharmacySales": 30,
+          "updatedAt": "2026-02-04T07:39:30.000Z"
+        }
+      }
+    },
+    "ml8b10jaiphosp": {
+      "signals": {
+        "clinicVisits": 150,
+        "pharmacySales": 200,
+        "pollution": 118,
+        "temperature": 33,
+        "mobility": 55,
+        "updatedAt": "2026-02-04T07:40:00.000Z"
+      },
+      "alert": {
+        "level": "high",
+        "reason": "Dengue cluster detected",
+        "confidence": 82,
+        "disease": "dengue"
+      },
+      "diseaseData": {
+        "dengue": {
+          "clinicVisits": 200,
+          "pharmacySales": 900,
+          "updatedAt": "2026-02-04T07:40:00.000Z"
+        }
+      }
+    },
+    "ml7psg0nod2gem": {
+      "signals": {
+        "clinicVisits": 0,
+        "pharmacySales": 0,
+        "pollution": 199,
+        "temperature": 29,
+        "mobility": 0,
+        "updatedAt": "2026-02-04T07:36:59.941Z"
+      },
+      "alert": {
+        "level": "high",
+        "reason": "flu is spreading fast in this area. Please be careful.",
+        "confidence": 88,
+        "disease": "flu"
+      },
+      "diseaseData": {
+        "flu": {
+          "clinicVisits": 10000,
+          "pharmacySales": 100,
+          "updatedAt": "2026-02-04T07:36:59.963Z"
+        }
+      }
+    },
+    "ml7chn001": {
+      "signals": {
+        "clinicVisits": 420,
+        "pharmacySales": 1380,
+        "pollution": 140,
+        "temperature": 32,
+        "mobility": 95,
+        "updatedAt": "2026-02-04T06:10:00.000Z"
+      },
+      "alert": {
+        "level": "high",
+        "reason": "dengue is spreading fast in this area. Please be careful.",
+        "confidence": 91,
+        "disease": "dengue"
+      },
+      "diseaseData": {
+        "dengue": {
+          "clinicVisits": 820,
+          "pharmacySales": 1540,
+          "updatedAt": "2026-02-04T06:10:00.000Z"
+        }
+      }
+    },
+    "ml7chn002": {
+      "signals": {
+        "clinicVisits": 190,
+        "pharmacySales": 420,
+        "pollution": 115,
+        "temperature": 31,
+        "mobility": 70,
+        "updatedAt": "2026-02-04T06:15:00.000Z"
+      },
+      "alert": {
+        "level": "medium",
+        "reason": "viral fever cases increasing",
+        "confidence": 66,
+        "disease": "viral fever"
+      },
+      "diseaseData": {}
+    },
+    "ml7chn003": {
+      "signals": {
+        "clinicVisits": 530,
+        "pharmacySales": 1700,
+        "pollution": 150,
+        "temperature": 33,
+        "mobility": 110,
+        "updatedAt": "2026-02-04T06:20:00.000Z"
+      },
+      "alert": {
+        "level": "high",
+        "reason": "chikungunya outbreak suspected",
+        "confidence": 93,
+        "disease": "chikungunya"
+      },
+      "diseaseData": {
+        "chikungunya": {
+          "clinicVisits": 640,
+          "pharmacySales": 980,
+          "updatedAt": "2026-02-04T06:20:00.000Z"
+        }
+      }
+    },
+    "ml7chn004": {
+      "signals": {
+        "clinicVisits": 85,
+        "pharmacySales": 190,
+        "pollution": 95,
+        "temperature": 30,
+        "mobility": 45,
+        "updatedAt": "2026-02-04T06:25:00.000Z"
+      },
+      "alert": {
+        "level": "normal",
+        "reason": "No significant anomalies detected",
+        "confidence": 24
+      },
+      "diseaseData": {}
+    },
+    "ml7chn005": {
+      "signals": {
+        "clinicVisits": 310,
+        "pharmacySales": 760,
+        "pollution": 125,
+        "temperature": 32,
+        "mobility": 80,
+        "updatedAt": "2026-02-04T06:30:00.000Z"
+      },
+      "alert": {
+        "level": "high",
+        "reason": "malaria cases rising in suburban areas",
+        "confidence": 87,
+        "disease": "malaria"
+      },
+      "diseaseData": {
+        "malaria": {
+          "clinicVisits": 360,
+          "pharmacySales": 610,
+          "updatedAt": "2026-02-04T06:30:00.000Z"
+        }
+      }
+    },
+    "ml7chn006": {
+      "signals": {
+        "clinicVisits": 140,
+        "pharmacySales": 360,
+        "pollution": 118,
+        "temperature": 31,
+        "mobility": 60,
+        "updatedAt": "2026-02-04T06:35:00.000Z"
+      },
+      "alert": {
+        "level": "medium",
+        "reason": "respiratory illness cases increasing",
+        "confidence": 61,
+        "disease": "respiratory infection"
+      },
+      "diseaseData": {}
+    }
+  },
+  "users": [
+    {
+      "id": "ml5chrinpyzu2s",
+      "role": "citizen",
+      "name": "Pallavi",
+      "createdAt": "2026-02-02T15:49:14.255Z",
+      "lastLogin": "2026-02-02T15:49:14.255Z"
+    },
+    {
+      "id": "ml5ci6aixoz8tw",
+      "role": "citizen",
+      "name": "pallavi",
+      "createdAt": "2026-02-02T15:49:33.402Z",
+      "lastLogin": "2026-02-04T07:45:13.937Z"
+    },
+    {
+      "id": "ml5e0uml21lf0f",
+      "role": "pharmacist",
+      "name": "ABC",
+      "createdAt": "2026-02-02T16:32:04.365Z",
+      "lastLogin": "2026-02-02T16:32:04.365Z"
+    },
+    {
+      "id": "ml5fv138r2be93",
+      "role": "hospital",
+      "name": "abc",
+      "createdAt": "2026-02-02T17:23:32.036Z",
+      "lastLogin": "2026-02-03T10:49:17.887Z"
+    },
+    {
+      "id": "ml6gsiry2j00ec",
+      "role": "pharmacist",
+      "name": "pharmacy",
+      "createdAt": "2026-02-03T10:37:20.782Z",
+      "lastLogin": "2026-02-03T10:37:20.782Z"
+    },
+    {
+      "id": "ml6jmwfdft3xbr",
+      "role": "citizen",
+      "name": "Naman Misra",
+      "createdAt": "2026-02-03T11:56:57.385Z",
+      "lastLogin": "2026-02-03T12:44:54.946Z"
+    },
+    {
+      "id": "ml6jpuqftii72u",
+      "role": "pharmacist",
+      "name": "Naman Misra",
+      "createdAt": "2026-02-03T11:59:15.159Z",
+      "lastLogin": "2026-02-03T12:45:07.296Z"
+    },
+    {
+      "id": "ml6jqoh2hajzz8",
+      "role": "hospital",
+      "name": "Naman Misra",
+      "createdAt": "2026-02-03T11:59:53.702Z",
+      "lastLogin": "2026-02-03T12:27:18.794Z"
+    },
+    {
+      "id": "ml6kvrkg1pyp48",
+      "role": "citizen",
+      "name": "Naman",
+      "createdAt": "2026-02-03T12:31:50.608Z",
+      "lastLogin": "2026-02-03T12:31:50.608Z"
+    },
+    {
+      "id": "ml6l3cqbsn9tb4",
+      "role": "hospital",
+      "name": "Doctor Sinha",
+      "createdAt": "2026-02-03T12:37:44.627Z",
+      "lastLogin": "2026-02-03T12:37:44.627Z"
+    },
+    {
+      "id": "ml7oyo0yeu4rr2",
+      "role": "citizen",
+      "name": "aastha",
+      "createdAt": "2026-02-04T07:13:50.626Z",
+      "lastLogin": "2026-02-04T07:13:50.627Z"
+    },
+    {
+      "id": "ml8a1delpharm",
+      "role": "pharmacist",
+      "name": "GreenCare Pharmacy",
+      "createdAt": "2026-02-04T07:29:30.000Z",
+      "lastLogin": "2026-02-04T07:30:05.000Z"
+    },
+    {
+      "id": "ml8a2mumpharm",
+      "role": "pharmacist",
+      "name": "Seaside Pharmacy",
+      "createdAt": "2026-02-04T07:29:45.000Z",
+      "lastLogin": "2026-02-04T07:31:05.000Z"
+    },
+    {
+      "id": "ml8a3bengpharm",
+      "role": "pharmacist",
+      "name": "Silicon Pharmacy",
+      "createdAt": "2026-02-04T07:29:50.000Z",
+      "lastLogin": "2026-02-04T07:31:35.000Z"
+    },
+    {
+      "id": "ml8a4chnpharm",
+      "role": "pharmacist",
+      "name": "BayMed Pharmacy",
+      "createdAt": "2026-02-04T07:29:55.000Z",
+      "lastLogin": "2026-02-04T07:32:10.000Z"
+    },
+    {
+      "id": "ml8a5kolpharm",
+      "role": "pharmacist",
+      "name": "Hooghly Pharmacy",
+      "createdAt": "2026-02-04T07:30:00.000Z",
+      "lastLogin": "2026-02-04T07:32:40.000Z"
+    },
+    {
+      "id": "ml8a6hydrpharm",
+      "role": "pharmacist",
+      "name": "Charminar Pharmacy",
+      "createdAt": "2026-02-04T07:30:10.000Z",
+      "lastLogin": "2026-02-04T07:33:05.000Z"
+    },
+    {
+      "id": "ml8a7punepharm",
+      "role": "pharmacist",
+      "name": "PuneCare Pharmacy",
+      "createdAt": "2026-02-04T07:30:20.000Z",
+      "lastLogin": "2026-02-04T07:33:35.000Z"
+    },
+    {
+      "id": "ml8a8ahmpharm",
+      "role": "pharmacist",
+      "name": "Sabarmati Pharmacy",
+      "createdAt": "2026-02-04T07:30:30.000Z",
+      "lastLogin": "2026-02-04T07:34:05.000Z"
+    },
+    {
+      "id": "ml8a9luckpharm",
+      "role": "pharmacist",
+      "name": "Gomti Pharmacy",
+      "createdAt": "2026-02-04T07:30:40.000Z",
+      "lastLogin": "2026-02-04T07:34:35.000Z"
+    },
+    {
+      "id": "ml8a10jaipharm",
+      "role": "pharmacist",
+      "name": "PinkCity Pharmacy",
+      "createdAt": "2026-02-04T07:30:50.000Z",
+      "lastLogin": "2026-02-04T07:35:10.000Z"
+    },
+    {
+      "id": "ml8b1delhosp",
+      "role": "hospital",
+      "name": "Central Hospital Delhi",
+      "createdAt": "2026-02-04T07:31:00.000Z",
+      "lastLogin": "2026-02-04T07:35:40.000Z"
+    },
+    {
+      "id": "ml8b2mumbhosp",
+      "role": "hospital",
+      "name": "Mumbai General Hospital",
+      "createdAt": "2026-02-04T07:31:10.000Z",
+      "lastLogin": "2026-02-04T07:36:10.000Z"
+    },
+    {
+      "id": "ml8b3benghosp",
+      "role": "hospital",
+      "name": "Bengaluru Care Hospital",
+      "createdAt": "2026-02-04T07:31:20.000Z",
+      "lastLogin": "2026-02-04T07:36:40.000Z"
+    },
+    {
+      "id": "ml8b4chnhosp",
+      "role": "hospital",
+      "name": "Chennai Medical Center",
+      "createdAt": "2026-02-04T07:31:30.000Z",
+      "lastLogin": "2026-02-04T07:37:10.000Z"
+    },
+    {
+      "id": "ml8b5kolhosp",
+      "role": "hospital",
+      "name": "Kolkata Health Institute",
+      "createdAt": "2026-02-04T07:31:40.000Z",
+      "lastLogin": "2026-02-04T07:37:40.000Z"
+    },
+    {
+      "id": "ml8b6hydrhosp",
+      "role": "hospital",
+      "name": "Hyderabad City Hospital",
+      "createdAt": "2026-02-04T07:31:50.000Z",
+      "lastLogin": "2026-02-04T07:38:15.000Z"
+    },
+    {
+      "id": "ml8b7punehosp",
+      "role": "hospital",
+      "name": "Pune City Hospital",
+      "createdAt": "2026-02-04T07:32:00.000Z",
+      "lastLogin": "2026-02-04T07:38:45.000Z"
+    },
+    {
+      "id": "ml8b8ahmhosp",
+      "role": "hospital",
+      "name": "Ahmedabad General Hospital",
+      "createdAt": "2026-02-04T07:32:10.000Z",
+      "lastLogin": "2026-02-04T07:39:10.000Z"
+    },
+    {
+      "id": "ml8b9luckhosp",
+      "role": "hospital",
+      "name": "Lucknow Civic Hospital",
+      "createdAt": "2026-02-04T07:32:20.000Z",
+      "lastLogin": "2026-02-04T07:39:40.000Z"
+    },
+    {
+      "id": "ml8b10jaiphosp",
+      "role": "hospital",
+      "name": "Jaipur District Hospital",
+      "createdAt": "2026-02-04T07:32:30.000Z",
+      "lastLogin": "2026-02-04T07:40:10.000Z"
+    },
+    {
+      "id": "ml7plgm51c3p88",
+      "role": "pharmacist",
+      "name": "abc",
+      "createdAt": "2026-02-04T07:31:34.109Z",
+      "lastLogin": "2026-02-04T07:31:34.109Z"
+    },
+    {
+      "id": "ml7ppcuzfvgq9v",
+      "role": "citizen",
+      "name": "abc",
+      "createdAt": "2026-02-04T07:34:35.867Z",
+      "lastLogin": "2026-02-04T07:34:35.867Z"
+    },
+    {
+      "id": "ml7pru67n5l9t6",
+      "role": "pharmacist",
+      "name": "pharma-grease",
+      "createdAt": "2026-02-04T07:36:31.615Z",
+      "lastLogin": "2026-02-04T07:36:31.615Z"
+    }
+  ],
+  "diseaseData": {
+    "ml53qu227xrnnc": {
+      "dengue": {
+        "clinicVisits": 1000000000,
+        "pharmacySales": 10000,
+        "updatedAt": "2026-02-03T10:51:18.796Z"
+      }
+    },
+    "ml6k1ito75hxwv": {
+      "covid 19": {
+        "clinicVisits": 200,
+        "pharmacySales": 40,
+        "updatedAt": "2026-02-03T12:08:19.613Z"
+      }
+    },
+    "ml6kmnqq3gzw6a": {
+      "nipah virus": {
+        "clinicVisits": 230,
+        "pharmacySales": 500,
+        "updatedAt": "2026-02-03T12:24:45.759Z"
+      }
+    },
+    "ml6kr9lv55m3j1": {
+      "dengue": {
+        "clinicVisits": 500,
+        "pharmacySales": 3257,
+        "updatedAt": "2026-02-03T12:28:20.718Z"
+      }
+    },
+    "ml6kuexrmfhyo6": {
+      "dengue": {
+        "clinicVisits": 400,
+        "pharmacySales": 231,
+        "updatedAt": "2026-02-03T12:30:47.594Z"
+      }
+    },
+    "ml6l4qbn11imsh": {
+      "malaria": {
+        "clinicVisits": 5,
+        "pharmacySales": 100,
+        "updatedAt": "2026-02-03T12:38:48.912Z"
+      }
+    },
+    "ml6l60xr67m41e": {
+      "covid 19": {
+        "clinicVisits": 2,
+        "pharmacySales": 12,
+        "updatedAt": "2026-02-03T12:39:49.326Z"
+      }
+    },
+    "ml6l7dao7il65e": {
+      "dengue": {
+        "clinicVisits": 2,
+        "pharmacySales": 111,
+        "updatedAt": "2026-02-03T12:40:51.997Z"
+      }
+    },
+    "ml6l8f94mmlnvd": {
+      "dengue": {
+        "clinicVisits": 1,
+        "pharmacySales": 5,
+        "updatedAt": "2026-02-03T12:41:41.188Z"
+      }
+    },
+    "ml8a1delpharm": {
+      "flu": {
+        "clinicVisits": 2,
+        "pharmacySales": 30,
+        "updatedAt": "2026-02-04T07:30:00.000Z"
+      }
+    },
+    "ml8a2mumpharm": {
+      "fever": {
+        "clinicVisits": 5,
+        "pharmacySales": 80,
+        "updatedAt": "2026-02-04T07:31:00.000Z"
+      }
+    },
+    "ml8a3bengpharm": {
+      "cold": {
+        "clinicVisits": 1,
+        "pharmacySales": 20,
+        "updatedAt": "2026-02-04T07:31:30.000Z"
+      }
+    },
+    "ml8a4chnpharm": {
+      "dengue": {
+        "clinicVisits": 3,
+        "pharmacySales": 40,
+        "updatedAt": "2026-02-04T07:32:00.000Z"
+      }
+    },
+    "ml8a5kolpharm": {
+      "fever": {
+        "clinicVisits": 60,
+        "pharmacySales": 300,
+        "updatedAt": "2026-02-04T07:32:30.000Z"
+      }
+    },
+    "ml8a6hydrpharm": {
+      "covid 19": {
+        "clinicVisits": 5,
+        "pharmacySales": 20,
+        "updatedAt": "2026-02-04T07:33:00.000Z"
+      }
+    },
+    "ml8a7punepharm": {
+      "cold": {
+        "clinicVisits": 2,
+        "pharmacySales": 15,
+        "updatedAt": "2026-02-04T07:33:30.000Z"
+      }
+    },
+    "ml8a8ahmpharm": {
+      "malaria": {
+        "clinicVisits": 6,
+        "pharmacySales": 40,
+        "updatedAt": "2026-02-04T07:34:00.000Z"
+      }
+    },
+    "ml8a9luckpharm": {
+      "fever": {
+        "clinicVisits": 4,
+        "pharmacySales": 22,
+        "updatedAt": "2026-02-04T07:34:30.000Z"
+      }
+    },
+    "ml8a10jaipharm": {
+      "dengue": {
+        "clinicVisits": 8,
+        "pharmacySales": 120,
+        "updatedAt": "2026-02-04T07:35:00.000Z"
+      }
+    },
+    "ml8b1delhosp": {
+      "flu": {
+        "clinicVisits": 180,
+        "pharmacySales": 320,
+        "updatedAt": "2026-02-04T07:35:30.000Z"
+      }
+    },
+    "ml8b2mumbhosp": {
+      "dengue": {
+        "clinicVisits": 250,
+        "pharmacySales": 1400,
+        "updatedAt": "2026-02-04T07:36:00.000Z"
+      }
+    },
+    "ml8b3benghosp": {
+      "covid 19": {
+        "clinicVisits": 25,
+        "pharmacySales": 60,
+        "updatedAt": "2026-02-04T07:36:30.000Z"
+      }
+    },
+    "ml8b4chnhosp": {
+      "malaria": {
+        "clinicVisits": 12,
+        "pharmacySales": 40,
+        "updatedAt": "2026-02-04T07:37:00.000Z"
+      }
+    },
+    "ml8b5kolhosp": {
+      "gastroenteritis": {
+        "clinicVisits": 140,
+        "pharmacySales": 220,
+        "updatedAt": "2026-02-04T07:37:30.000Z"
+      }
+    },
+    "ml8b6hydrhosp": {
+      "covid 19": {
+        "clinicVisits": 30,
+        "pharmacySales": 80,
+        "updatedAt": "2026-02-04T07:38:00.000Z"
+      }
+    },
+    "ml8b7punehosp": {
+      "fever": {
+        "clinicVisits": 20,
+        "pharmacySales": 50,
+        "updatedAt": "2026-02-04T07:38:30.000Z"
+      }
+    },
+    "ml8b8ahmhosp": {
+      "malaria": {
+        "clinicVisits": 18,
+        "pharmacySales": 70,
+        "updatedAt": "2026-02-04T07:39:00.000Z"
+      }
+    },
+    "ml8b9luckhosp": {
+      "fever": {
+        "clinicVisits": 12,
+        "pharmacySales": 30,
+        "updatedAt": "2026-02-04T07:39:30.000Z"
+      }
+    },
+    "ml8b10jaiphosp": {
+      "dengue": {
+        "clinicVisits": 200,
+        "pharmacySales": 900,
+        "updatedAt": "2026-02-04T07:40:00.000Z"
+      }
+    },
+    "ml7psg0nod2gem": {
+      "flu": {
+        "clinicVisits": 10000,
+        "pharmacySales": 100,
+        "updatedAt": "2026-02-04T07:36:59.963Z"
+      }
+    },
+    "ml7chn001": {
+      "dengue": {
+        "clinicVisits": 820,
+        "pharmacySales": 1540,
+        "updatedAt": "2026-02-04T06:10:00.000Z"
+      }
+    },
+    "ml7chn003": {
+      "chikungunya": {
+        "clinicVisits": 640,
+        "pharmacySales": 980,
+        "updatedAt": "2026-02-04T06:20:00.000Z"
+      }
+    },
+    "ml7chn005": {
+      "malaria": {
+        "clinicVisits": 360,
+        "pharmacySales": 610,
+        "updatedAt": "2026-02-04T06:30:00.000Z"
+      }
+    }
+  },
+  "userData": {
+    "ml6jmwfdft3xbr": {
+      "location": {
+        "lat": 13.0895,
+        "lng": 80.2739
+      },
+      "pollution": 50,
+      "temperature": 26,
+      "diseases": [],
+      "updatedAt": "2026-02-03T12:25:13.996Z"
+    },
+    "ml7oyo0yeu4rr2": {
+      "location": {
+        "lat": 12.824979550578679,
+        "lng": 80.0454997662163
+      },
+      "pollution": 20,
+      "temperature": 29,
+      "diseases": [],
+      "updatedAt": "2026-02-04T07:30:56.025Z"
+    },
+    "ml7ppcuzfvgq9v": {
+      "location": {
+        "lat": 12.824989768483464,
+        "lng": 80.0454997169575
+      },
+      "pollution": 20,
+      "temperature": 29,
+      "diseases": [],
+      "updatedAt": "2026-02-04T07:34:44.150Z"
+    },
+    "ml5ci6aixoz8tw": {
+      "location": {
+        "lat": 12.824997544169937,
+        "lng": 80.04551112008276
+      },
+      "pollution": 20,
+      "temperature": 30,
+      "diseases": [],
+      "updatedAt": "2026-02-04T07:45:25.839Z"
+    }
+  },
+  "simulationHistory": [
+    {
+      "policy": "mask_advisory",
+      "originalCases": 1200,
+      "reducedCases": 900,
+      "hospitalLoad": 180,
+      "costSaved": 150000,
+      "timestamp": "2026-02-03T09:00:00.000Z"
+    },
+    {
+      "policy": "mobile_clinic",
+      "originalCases": 800,
+      "reducedCases": 520,
+      "hospitalLoad": 104,
+      "costSaved": 140000,
+      "timestamp": "2026-02-03T11:15:00.000Z"
+    },
+    {
+      "policy": "traffic_restriction",
+      "originalCases": 1500,
+      "reducedCases": 1200,
+      "hospitalLoad": 240,
+      "costSaved": 150000,
+      "timestamp": "2026-02-03T13:45:00.000Z"
+    },
+    {
+      "policy": "mask_advisory",
+      "originalCases": 2000,
+      "reducedCases": 1500,
+      "hospitalLoad": 300,
+      "costSaved": 250000,
+      "timestamp": "2026-02-03T16:20:00.000Z"
+    },
+    {
+      "policy": "mobile_clinic",
+      "originalCases": 600,
+      "reducedCases": 390,
+      "hospitalLoad": 78,
+      "costSaved": 105000,
+      "timestamp": "2026-02-04T06:10:00.000Z"
+    },
+    {
+      "policy": "traffic_restriction",
+      "originalCases": 1100,
+      "reducedCases": 880,
+      "hospitalLoad": 176,
+      "costSaved": 110000,
+      "timestamp": "2026-02-04T07:00:00.000Z"
+    }
+  ]
+}
