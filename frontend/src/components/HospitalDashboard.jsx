@@ -61,12 +61,12 @@ const HospitalDashboard = ({ user }) => {
 
       const { latitude, longitude } = position.coords;
 
-      // Fetch real pollution and temperature data from APIs
-      const { pollution, temperature } = await fetchEnvironmentData(latitude, longitude);
+      // Fetch temperature data from API (pollution is entered manually)
+      const { temperature } = await fetchEnvironmentData(latitude, longitude);
 
       const updatedData = {
         location: { lat: latitude, lng: longitude },
-        pollution,
+        pollution: userData?.pollution || null, // Keep existing pollution value
         temperature,
         diseases: userData?.diseases || [],
       };

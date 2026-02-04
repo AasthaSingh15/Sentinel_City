@@ -179,11 +179,11 @@ const MapView = ({ selectedWard, onSelectWard, currentUser }) => {
         }
       }
 
-      // Fetch environment data (pollution & temperature) for this location
-      const { pollution, temperature } = await fetchEnvironmentData(latitude, longitude);
+      // Fetch temperature data from API (pollution is entered manually)
+      const { temperature } = await fetchEnvironmentData(latitude, longitude);
 
       setUserLocation({ lat: latitude, lng: longitude });
-      setUserPollution(pollution);
+      setUserPollution(userPollution => userPollution ?? null); // Keep existing pollution value
       setUserTemperature(temperature);
       setShowAllWards(false);
 
@@ -192,7 +192,7 @@ const MapView = ({ selectedWard, onSelectWard, currentUser }) => {
         try {
           await saveUserData(currentUser.id, {
             location: { lat: latitude, lng: longitude },
-            pollution,
+            pollution: userPollution ?? null, // Keep existing pollution value
             temperature,
             diseases: [],
           });

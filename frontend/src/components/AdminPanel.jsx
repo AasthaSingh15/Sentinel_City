@@ -213,18 +213,18 @@ const AdminPanel = ({ user }) => {
                         }
                       }
 
-                      const { pollution, temperature } = await fetchEnvironmentData(
+                      const { temperature } = await fetchEnvironmentData(
                         latitude,
                         longitude
                       );
                       setLocationForm({
                         lat: String(latitude),
                         lng: String(longitude),
-                        pollution: String(pollution),
+                        pollution: locationForm.pollution || '', // Keep existing pollution value
                         temperature: String(temperature)
                       });
                       setFeedback(
-                        `Location & environment fetched — AQI: ${pollution}, Temp: ${temperature}°C`
+                        `Location & temperature fetched — Temp: ${temperature}°C`
                       );
                       setTimeout(() => setFeedback(''), 5000);
                     } catch (err) {

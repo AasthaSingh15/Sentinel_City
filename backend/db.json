@@ -1262,7 +1262,7 @@
       "role": "citizen",
       "name": "abc",
       "createdAt": "2026-02-04T07:34:35.867Z",
-      "lastLogin": "2026-02-04T07:34:35.867Z"
+      "lastLogin": "2026-02-04T13:49:20.711Z"
     },
     {
       "id": "ml7pru67n5l9t6",
@@ -1528,13 +1528,13 @@
     },
     "ml7ppcuzfvgq9v": {
       "location": {
-        "lat": 12.824989768483464,
-        "lng": 80.0454997169575
+        "lat": 12.821514360826404,
+        "lng": 80.04597452758978
       },
-      "pollution": 20,
-      "temperature": 29,
+      "pollution": 0,
+      "temperature": 26,
       "diseases": [],
-      "updatedAt": "2026-02-04T07:34:44.150Z"
+      "updatedAt": "2026-02-04T13:49:23.542Z"
     },
     "ml5ci6aixoz8tw": {
       "location": {
