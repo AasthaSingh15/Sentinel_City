@@ -9,16 +9,30 @@ if (process.env.NODE_ENV !== 'production') {
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-lite" });
+ 
+
+ 
+const predictionCache = new Map();
+const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-app.use(cors({
+app.use(cors({ 
   origin: "*"
 }));
 app.use(express.json());
 
 async function getAIPrediction(wardName, signals, diseaseData) {
+  // Check cache first
+  const cacheKey = `${wardName}:${JSON.stringify(signals)}:${JSON.stringify(diseaseData)}`;
+  const cached = predictionCache.get(cacheKey);
+  
+  if (cached && Date.now() - cached.timestamp < CACHE_DURATION) {
+    console.log(`Using cached prediction for ${wardName}`);
+    return cached.data;
+  }
+
   const prompt = `
     Context: You are a public health AI for "Sentinel City".
     Current Data for ${wardName}:
@@ -38,14 +52,24 @@ async function getAIPrediction(wardName, signals, diseaseData) {
   try {
     const result = await model.generateContent(prompt);
     const text = result.response.text().replace(/```json|```/g, "");
-    return JSON.parse(text);
+    const prediction = JSON.parse(text);
+    
+    // Cache the result
+    predictionCache.set(cacheKey, { data: prediction, timestamp: Date.now() });
+    
+    return prediction;
   } catch (err) {
     console.error("AI Error:", err);
-    return { 
+    const fallback = { 
       prediction: "Unable to analyze real-time data.", 
       prevention: ["Maintain general hygiene", "Contact local health authorities"], 
       risk: "Unknown" 
     };
+    
+    // Cache fallback too to avoid repeated API calls
+    predictionCache.set(cacheKey, { data: fallback, timestamp: Date.now() });
+    
+    return fallback;
   }
 }
 

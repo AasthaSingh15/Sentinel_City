@@ -221,6 +221,12 @@
       "name": "Chennai - Guindy",
       "lat": 13.0108,
       "lng": 80.212
+    },
+    {
+      "id": "mlgh0agmab03lt",
+      "name": "Pharma - 2/10/2026, 4:11:04 PM",
+      "lat": 13.052122255871282,
+      "lng": 80.21063922153348
     }
   ],
   "signals": {
@@ -1030,6 +1036,29 @@
         "disease": "respiratory infection"
       },
       "diseaseData": {}
+    },
+    "mlgh0agmab03lt": {
+      "signals": {
+        "clinicVisits": 0,
+        "pharmacySales": 0,
+        "pollution": 0,
+        "temperature": 28,
+        "mobility": 0,
+        "updatedAt": "2026-02-10T10:41:05.027Z"
+      },
+      "alert": {
+        "level": "high",
+        "reason": "dengue is spreading fast in this area. Please be careful.",
+        "confidence": 88,
+        "disease": "dengue"
+      },
+      "diseaseData": {
+        "dengue": {
+          "clinicVisits": 10000,
+          "pharmacySales": 100,
+          "updatedAt": "2026-02-10T10:41:05.043Z"
+        }
+      }
     }
   },
   "users": [
@@ -1038,7 +1067,7 @@
       "role": "citizen",
       "name": "Pallavi",
       "createdAt": "2026-02-02T15:49:14.255Z",
-      "lastLogin": "2026-02-02T15:49:14.255Z"
+      "lastLogin": "2026-02-10T09:31:11.343Z"
     },
     {
       "id": "ml5ci6aixoz8tw",
@@ -1255,7 +1284,7 @@
       "role": "pharmacist",
       "name": "abc",
       "createdAt": "2026-02-04T07:31:34.109Z",
-      "lastLogin": "2026-02-04T07:31:34.109Z"
+      "lastLogin": "2026-02-10T08:31:56.700Z"
     },
     {
       "id": "ml7ppcuzfvgq9v",
@@ -1270,6 +1299,27 @@
       "name": "pharma-grease",
       "createdAt": "2026-02-04T07:36:31.615Z",
       "lastLogin": "2026-02-04T07:36:31.615Z"
+    },
+    {
+      "id": "mlgebroyf7u89y",
+      "role": "pharmacist",
+      "name": "Pallavi",
+      "createdAt": "2026-02-10T09:26:01.714Z",
+      "lastLogin": "2026-02-10T09:26:01.714Z"
+    },
+    {
+      "id": "mlgfpp3m7tdp4p",
+      "role": "pharmacist",
+      "name": "Pharma",
+      "createdAt": "2026-02-10T10:04:51.154Z",
+      "lastLogin": "2026-02-10T10:04:51.154Z"
+    },
+    {
+      "id": "mlgiz867cvk7qg",
+      "role": "citizen",
+      "name": "adriza",
+      "createdAt": "2026-02-10T11:36:14.623Z",
+      "lastLogin": "2026-02-10T11:36:14.623Z"
     }
   ],
   "diseaseData": {
@@ -1503,6 +1553,13 @@
         "pharmacySales": 610,
         "updatedAt": "2026-02-04T06:30:00.000Z"
       }
+    },
+    "mlgh0agmab03lt": {
+      "dengue": {
+        "clinicVisits": 10000,
+        "pharmacySales": 100,
+        "updatedAt": "2026-02-10T10:41:05.043Z"
+      }
     }
   },
   "userData": {
@@ -1545,6 +1602,16 @@
       "temperature": 23,
       "diseases": [],
       "updatedAt": "2026-02-04T15:08:42.749Z"
+    },
+    "ml5chrinpyzu2s": {
+      "location": {
+        "lat": 13.052125627988648,
+        "lng": 80.21066191222718
+      },
+      "pollution": 0,
+      "temperature": 28,
+      "diseases": [],
+      "updatedAt": "2026-02-10T10:41:32.961Z"
     }
   },
   "simulationHistory": [
