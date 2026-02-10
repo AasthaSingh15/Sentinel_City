@@ -96,6 +96,40 @@ const App = () => {
             >
               Operational View
             </Link>
+
+            <Link
+              to="/intervention"
+              className={`px-3 py-1.5 rounded-md border transition ${
+                location.pathname === '/intervention'
+                  ? 'border-accentSoft bg-accent/40'
+                  : 'border-accent/40 hover:border-accentSoft/80'
+              }`}
+            >
+              Intervention
+            </Link>
+
+            <Link
+              to="/signals"
+              className={`px-3 py-1.5 rounded-md border transition ${
+                location.pathname === '/signals'
+                  ? 'border-accentSoft bg-accent/40'
+                  : 'border-accent/40 hover:border-accentSoft/80'
+              }`}
+            >
+              Signal Timeline
+            </Link>
+
+            <Link
+              to="/city-intel"
+              className={`px-3 py-1.5 rounded-md border transition ${
+                location.pathname === '/city-intel'
+                  ? 'border-accentSoft bg-accent/40'
+                  : 'border-accent/40 hover:border-accentSoft/80'
+              }`}
+            >
+              Citywide Intelligence
+            </Link>
+
             {hasAdminAccess && (
               <Link
                 to="/admin"
@@ -120,42 +154,12 @@ const App = () => {
 
       <main className="flex-1 max-w-7xl mx-auto w-full px-3 md:px-4 py-4 md:py-6">
         <Routes>
-          <Route
-            path="/"
-            element={
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6">
-                <div className="lg:col-span-1 bg-card/70 rounded-xl border border-accent/30 overflow-hidden flex flex-col shadow-lg shadow-black/40">
-                  <MapView selectedWard={selectedWard} onSelectWard={setSelectedWard} currentUser={currentUser} />
-                </div>
-                <div className="lg:col-span-2 flex flex-col gap-5 md:gap-6">
-                  <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
-                    <div className="bg-card/70 rounded-xl border border-accent/30 p-4 md:p-5 overflow-hidden shadow-md shadow-black/30">
-                      <Dashboard selectedWard={selectedWard} />
-                    </div>
-                    <div className="bg-card/70 rounded-xl border border-accent/30 p-4 md:p-5 overflow-hidden shadow-md shadow-black/30">
-                      <Simulator onResult={handleSimulationResult} />
-                    </div>
-                  </div>
-                  <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 min-h-[220px] max-h-[22rem]">
-                    <div className="bg-card/70 rounded-xl border border-accent/30 p-4 md:p-5 shadow-md shadow-black/30">
-                      <SignalToActionTimeline />
-                    </div>
-                    <div className="bg-card/70 rounded-xl border border-accent/30 p-4 md:p-5 shadow-md shadow-black/30">
-                      <Charts simulationHistory={simulationHistory} />
-                    </div>
-                  </div>
-                  <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
-                    <div className="bg-card rounded-xl border border-accent/30 p-4 md:p-5 shadow-md shadow-black/30 overflow-hidden">
-                      <AdvancedAnalyticsPanel />
-                    </div>
-                    <div className="bg-card/70 rounded-xl border border-accent/30 p-4 md:p-5 shadow-md shadow-black/30">
-                      <GeminiPredictionPanel selectedWard={selectedWard} />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            }
-          />
+          {/* Root -> redirect to operational view */}
+          <Route path="/" element={<Navigate to="/operational" replace />} />
+
+          {/* Page 1 — Operational View
+              Contains: MapView + Ward Risk Console (Dashboard) + GeminiPredictionPanel
+              These three live together on a single dashboard layout. */}
           <Route
             path="/operational"
             element={
@@ -163,35 +167,56 @@ const App = () => {
                 <div className="lg:col-span-1 bg-card/70 rounded-xl border border-accent/30 overflow-hidden flex flex-col shadow-lg shadow-black/40">
                   <MapView selectedWard={selectedWard} onSelectWard={setSelectedWard} currentUser={currentUser} />
                 </div>
+
                 <div className="lg:col-span-2 flex flex-col gap-5 md:gap-6">
-                  <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
-                    <div className="bg-card/70 rounded-xl border border-accent/30 p-4 md:p-5 overflow-hidden shadow-md shadow-black/30">
-                      <Dashboard selectedWard={selectedWard} />
-                    </div>
-                    <div className="bg-card/70 rounded-xl border border-accent/30 p-4 md:p-5 overflow-hidden shadow-md shadow-black/30">
-                      <Simulator onResult={handleSimulationResult} />
-                    </div>
+                  <div className="bg-card/70 rounded-xl border border-accent/30 p-4 md:p-5 overflow-hidden shadow-md shadow-black/30 min-h-[220px]">
+                    <Dashboard selectedWard={selectedWard} />
                   </div>
-                  <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 min-h-[220px] max-h-[22rem]">
-                    <div className="bg-card/70 rounded-xl border border-accent/30 p-4 md:p-5 shadow-md shadow-black/30">
-                      <SignalToActionTimeline />
-                    </div>
-                    <div className="bg-card/70 rounded-xl border border-accent/30 p-4 md:p-5 shadow-md shadow-black/30">
-                      <Charts simulationHistory={simulationHistory} />
-                    </div>
-                  </div>
-                  <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
-                    <div className="bg-card rounded-xl border border-accent/30 p-4 md:p-5 shadow-md shadow-black/30 overflow-hidden">
-                      <AdvancedAnalyticsPanel />
-                    </div>
-                    <div className="bg-card/70 rounded-xl border border-accent/30 p-4 md:p-5 shadow-md shadow-black/30">
-                      <GeminiPredictionPanel selectedWard={selectedWard} />
-                    </div>
+
+                  <div className="bg-card/70 rounded-xl border border-accent/30 p-4 md:p-5 overflow-hidden shadow-md shadow-black/30">
+                    <GeminiPredictionPanel selectedWard={selectedWard} />
                   </div>
                 </div>
               </div>
             }
           />
+
+          {/* Page 2 — Intervention Simulator + Policy Impact Timeline */}
+          <Route
+            path="/intervention"
+            element={
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6">
+                <div className="lg:col-span-1 bg-card/70 rounded-xl border border-accent/30 p-4 md:p-5 overflow-hidden shadow-lg shadow-black/40">
+                  <Simulator onResult={handleSimulationResult} />
+                </div>
+                <div className="lg:col-span-2 bg-card/70 rounded-xl border border-accent/30 p-4 md:p-5 overflow-hidden shadow-md shadow-black/30">
+                  <Charts simulationHistory={simulationHistory} />
+                </div>
+              </div>
+            }
+          />
+
+          {/* Page 3 — Signal-to-Action Timeline (Real-Time) */}
+          <Route
+            path="/signals"
+            element={
+              <div className="bg-card/70 rounded-xl border border-accent/30 p-4 md:p-5 overflow-hidden shadow-md shadow-black/30">
+                <SignalToActionTimeline />
+              </div>
+            }
+          />
+
+          {/* Page 4 — Citywide Intelligence */}
+          <Route
+            path="/city-intel"
+            element={
+              <div className="bg-card/70 rounded-xl border border-accent/30 p-4 md:p-6 shadow-lg shadow-black/40">
+                <AdvancedAnalyticsPanel />
+              </div>
+            }
+          />
+
+          {/* Admin panel remains isolated */}
           <Route
             path="/admin"
             element={
@@ -200,8 +225,6 @@ const App = () => {
                   <AdminPanel user={currentUser} />
                 </div>
               ) : (
-                // If a citizen or unauthenticated user manually hits /admin, send them
-                // back to the operational view instead of showing the admin UI.
                 <Navigate to="/operational" replace />
               )
             }

@@ -1320,6 +1320,13 @@
       "name": "adriza",
       "createdAt": "2026-02-10T11:36:14.623Z",
       "lastLogin": "2026-02-10T11:36:14.623Z"
+    },
+    {
+      "id": "mlgw0hiwpwilhq",
+      "role": "pharmacist",
+      "name": "pharma",
+      "createdAt": "2026-02-10T17:41:08.408Z",
+      "lastLogin": "2026-02-10T17:41:08.408Z"
     }
   ],
   "diseaseData": {
